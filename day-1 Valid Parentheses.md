@@ -1,4 +1,4 @@
-# 20. Valid Parentheses  `Easy`
+# 20. Valid Parentheses  `Easy` `Commonly asked`
 link: https://leetcode.com/problems/valid-parentheses/
 
 ## Hint:
@@ -48,6 +48,6 @@ class Solution:
         return True if not stack else False
 ```
 ### Explanation:
-
-
+We use `stack` cause we have to pop the parentheses at the top of the list. for example we have [()] 
+How do we know what closing parentheses match the corresponding opening parentheses, we use a `hashmap` to keep track. 
 link: https://youtu.be/WTzjTskDFMg?si=Y-KU_PD0jE1qiObq
