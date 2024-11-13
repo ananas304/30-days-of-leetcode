@@ -27,10 +27,22 @@ link: https://leetcode.com/problems/invert-binary-tree
 
 ## Solutions:
 ```python
+class Solution:
+    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        if not root:
+            return None
+        
+        #swap the children
+        tmp = root.left
+        root.left = root.right
+        root.right = tmp
 
+        self.invertTree(root.left)
+        self.invertTree(root.right)
+        return root
 ```
 
 ### Explainations:
+- We can use DFS to recurvisely invert the tree. 
 
-
-link: 
+link: https://youtu.be/OnSn2XEQ4MY?si=_ypNRXWV1D7CsN-S
