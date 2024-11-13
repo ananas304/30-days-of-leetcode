@@ -30,10 +30,43 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 
 ## Solutions:
 ```python
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        newStr = ""
 
+        for  c in s:
+            if c.isalnum():
+                newStr += c.lower()
+        return newStr == newStr[::-1]
+```
+the below solution does not use built in functions.
+```python
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        l, r = 0, len(s) -1
+
+        while l < r:
+            while l < r and not self.alphanumeric(s[l]):
+                l += 1
+            while r > l and not self.alphanumeric(s[r]):
+                r -= 1
+            if s[l].lower() != s[r].lower():
+                return False
+            l, r = l + 1, r - 1
+        return True
+    
+    def alphanumeric(self, c):
+        return (ord('A') <= ord(c) <= ord('Z') or 
+                ord('a') <= ord(c) <= ord('z') or
+                ord('1') <= ord(c) <= ord('9'))
 ```
 
 ### Explainations:
-
+- we only consider *Alphanumeric characters*, so we ignore spaces and other symbols.
+- We remove the non alphanumeric characters, we convert all the alphabets to lowercase and then check if the string is a palindrome.
+- Creating another String to store the characters will take up extra space and when we reverse the string also uses extra memory and we also use built in functions.
+- We can use pointers and ASCII values.
+- We have `L` pointer on the first character and `R` pointer on the last character. if the charcter that `L` pointer is pointing to a non-alphanumeric Charcter then the `L` pointer is moved forward or is incremented. If it is a Aplhanumeric character then the character of `L` pointer and character of `R` pointer are compared and if they match the `L` pointer is incremented and `R` pointer is decremented.
+- for this method the Time complexity is O(n) and Space complexity is O(1).
 
 link: https://youtu.be/jJXJ16kPFWg?si=OZOlf685Tm2Cji4I
