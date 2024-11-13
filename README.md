@@ -9,8 +9,9 @@ Welcome to my 30-day LeetCode challenge repository! This challenge is focused on
 | 1   | 1               | Two Sum                   | Easy       | [Link](https://leetcode.com/problems/two-sum/)            | [Video](https://youtu.be/KLlXCFG5TnA?si=IS2eXAR_ITymOdTL)                 |[Solution](https://github.com/ananas304/30-days-of-leetcode/blob/main/day-1%20Merge%20Two%20Sorted%20Lists.md) |
 | 1   | 20              | Valid Parentheses         | Easy       | [Link](https://leetcode.com/problems/valid-parentheses/)  | [Video](https://youtu.be/WTzjTskDFMg?si=Y-KU_PD0jE1qiObq)             |[Solution](https://github.com/ananas304/30-days-of-leetcode/blob/main/day-1%20Merge%20Two%20Sorted%20Lists.md) |
 | 1   | 21              | Merge Two Sorted Lists    | Easy       | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Video](https://youtu.be/WTzjTskDFMg?si=Y-KU_PD0jE1qiObq)             |[Solution](https://github.com/ananas304/30-days-of-leetcode/blob/main/solutions/day3_merge_two_sorted_lists.py) |
-| 2   | 121             | Best Time to Buy and Sell Stock | Easy | [Link](https://github.com/ananas304/30-days-of-leetcode/blob/main/day-1%20Merge%20Two%20Sorted%20Lists.md) | ...                            | ...                                                                                                |
-
+| 2   | 121             | Best Time to Buy and Sell Stock | Easy | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Video](https://youtu.be/1pkOgXD63yU?si=sdOAz0t_M64V2m8X) | [Solution](https://youtu.be/1pkOgXD63yU?si=sdOAz0t_M64V2m8X)   |
+| 2   | 125              | Valid Palindrome | Easy | [Link](https://leetcode.com/problems/valid-palindrome/) |[Video](...) | [Solution](...) |
+| 2   | 226              | Invert Binary Tree | Easy | [Link](https://leetcode.com/problems/invert-binary-tree/) |[Video](...) | [Solution](...) |
 
 
 
