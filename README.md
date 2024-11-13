@@ -15,10 +15,6 @@ Welcome to my 30-day LeetCode challenge repository! This challenge is focused on
 
 
 
-Each day, I'll add my solution to the problem in this repository, which will be committed to its respective file for easy reference.
-
-## Notes
-- Solutions will include comments to explain logic where necessary.
-- I may add alternative solutions and optimizations if time permits.
+Each day, I'll add my solution to the problem in this repository, which will be committed to its respective file for easy reference. File will include question, solution with explaination of logic where necessary.
 
 Happy coding!
