@@ -14,6 +14,8 @@ Welcome to my 30-day LeetCode challenge repository! This challenge is focused on
 | 2 | 6   | 226              | Invert Binary Tree | Easy | [Link](https://leetcode.com/problems/invert-binary-tree/) |[Video](https://youtu.be/OnSn2XEQ4MY?si=WO-bgPBijrraAXYn) | [Solution](https://github.com/ananas304/30-days-of-leetcode/blob/main/day-2%20Invert%20Binary%20Tree.md) |
 | 3 | 7 | 704             | Binary Search | Easy | [Link](https://leetcode.com/problems/binary-search//) |[Video](https://youtu.be/s4DPM8ct1pI?si=4vZS8_Y5DOXAKoX0) | [Solution](https://github.com/ananas304/30-days-of-leetcode/blob/main/day-3%20Binary%20Search.md) |
 | 3 | 8   | 242             | Valid Anagram | Easy | [Link](https://leetcode.com/problems/valid-anagram/) |[Video](https://youtu.be/9UtInBqnCgA?si=_ED3Wd7e30Fcq1Oa) | [Solution](https://github.com/ananas304/30-days-of-leetcode/blob/main/day-3%20Valid%20Anagram.md) |
+| 4 | 9   | 104             | Maximum Depth of Binary Tree | Easy | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |[Video]()                           | [Solution](https://github.com/ananas304/30-days-of-leetcode/blob/main/day-4%20Maximum%20Depth%20of%20Binary%20Tree.md) |
+| 4 | 10   | 141             | Linked List Cycle | Easy | [Link](https://leetcode.com/problems/linked-list-cycle/) |[Video](https://youtu.be/9UtInBqnCgA?si=_ED3Wd7e30Fcq1Oa) | [Solution](https://github.com/ananas304/30-days-of-leetcode/blob/main/day-4%20Linked%20List%20Cycle.md) |
 
 
 
